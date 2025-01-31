@@ -8,7 +8,7 @@ def home(request):
     if request.method == "GET":
         json_string = {
             "email": "mikelonu15@gmail.com",
-            "current_datetime": f"{timezone.now().isoformat()}",
+            "current_datetime": f"{timezone.now().strftime('%Y-%m-%dT%H:%M:%SZ')}",
             "github_url": "https://github.com/michaelEmeka/HNG-Backend-0.git",
         }
     return JsonResponse(json_string)
