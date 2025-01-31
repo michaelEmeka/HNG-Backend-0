@@ -1,8 +1,11 @@
 This project is a simple API in fulfilment of the HNG intership level 0 project.
 It receives a GET request via an API endpoint and send a JSON response, and appropriate HTTP status code.
 
-API enpoint:
-https://hng-backend-0-1njc.onrender.com/
+API Base url:
+https://hng-backend-0-1njc.onrender.com
+
+API Endpoint:
+/api/get_intern_detail
 
 JSON Response Format:
 {
