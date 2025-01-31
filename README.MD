@@ -11,6 +11,14 @@ JSON Response Format:
   "github_url": "<https://github.com/yourusername/your-repo>"
 }
 
-Response status code on success:
+Response status codes
+-on success:
 HTTP_200_OK
+-on failure:
+HTTP_403_FORBIDDEN
 
+
+Setup instructions
+1. Clone software from github into local machine
+2. Install dependencies (pip install -r requirements.txt) from root directory
+3. Run server (python manage.py runserver)
