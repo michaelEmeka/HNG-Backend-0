@@ -3,6 +3,7 @@ import json
 from datetime import datetime
 
 def home(request):
+    json_string = {}
     if request.method == "GET":
         json_string = {
             "email": "mikelonu15@gmail.com",
