@@ -11,4 +11,4 @@ def home(request):
             "current_datetime": f"{timezone.now().isoformat()}",
             "github_url": "https://github.com/michaelEmeka/HNG-Backend-0.git",
         }
-    return JsonResponse(json_string, status)
+    return JsonResponse(json_string)
