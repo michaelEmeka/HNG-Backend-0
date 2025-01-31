@@ -5,5 +5,5 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("", views.home)
+    path("api/get_intern_detail", views.home)
 ]
